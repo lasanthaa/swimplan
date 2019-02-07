@@ -1,0 +1,9 @@
+framework:
+    default_locale: '%locale%'
+    translator: ~
+    templating:
+        engines: ['twig', 'php']
+    # translator:
+    #     default_path: '%kernel.project_dir%/translations'
+    #     fallbacks:
+    #         - '%locale%'
